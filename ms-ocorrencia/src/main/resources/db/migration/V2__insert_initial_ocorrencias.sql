@@ -1,0 +1,3 @@
+INSERT INTO tb_ocorrencia (cidadao_id, titulo, descricao, endereco, categoria, status_ocorrencia) VALUES (1, 'Buraco na via pública', 'Existe um buraco de grande porte na altura do número 120.', 'Rua das Flores, 120 - Centro', 'INFRAESTRUTURA', 'ABERTA');
+
+INSERT INTO tb_ocorrencia (cidadao_id, titulo, descricao, endereco, categoria, status_ocorrencia) VALUES (2, 'Iluminação queimada', 'Lâmpada do poste piscando constantemente durante a noite.', 'Av. Paulista, 1500 - Bela Vista', 'ILUMINACAO', 'EM_ANALISE');

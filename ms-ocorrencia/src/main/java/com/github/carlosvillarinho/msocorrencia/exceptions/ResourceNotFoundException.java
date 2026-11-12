@@ -1,0 +1,8 @@
+package com.github.carlosvillarinho.msocorrencia.exceptions;
+
+public class ResourceNotFoundException extends RuntimeException{
+
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}
