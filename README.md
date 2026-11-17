@@ -159,10 +159,10 @@ As requisições podem ser executadas diretamente pelo **Swagger UI** de cada se
 * **Body (JSON):**
   ```json
   {
-    "nome": "Carlos Henrique",
-    "cpf": "123.456.789-00",
-    "email": "carlos@email.com",
-    "telefone": "11999999999"
+  "nome": "Mariana Costa Ferreira",
+  "cpf": "489.732.615-09",
+  "email": "mariana.ferreira94@outlook.com",
+  "telefone": "11984726351"
   }
   ```
 * **Resposta esperada:** `201 Created`, cabeçalho `Location` com a URI do recurso criado e corpo contendo `statusCidadao: "ATIVO"`.
@@ -172,11 +172,11 @@ As requisições podem ser executadas diretamente pelo **Swagger UI** de cada se
 * **Body (JSON):**
   ```json
   {
-    "cidadaoId": 1,
-    "titulo": "Poste com lâmpada queimada",
-    "descricao": "Iluminação pública apagada em frente ao número 500.",
-    "endereco": "Rua Augusta, 500 - Consolação",
-    "categoria": "ILUMINACAO"
+  "cidadaoId": 3,
+  "titulo": "Bueiro entupido e grade solta",
+  "descricao": "Boca de lobo obstruída com acúmulo de água na sarjeta e tampa metálica deslocada.",
+  "endereco": "Rua Clélia, 1420 - Lapa",
+  "categoria": "INFRAESTRUTURA"
   }
   ```
 * **Resposta esperada:** `201 Created`. Internamente, o `ms-ocorrencia` realiza uma chamada síncrona `PUT /api/v1/cidadaos/1/status` ao `ms-cidadao` via OpenFeign para atualizar o status do cidadão para `COLABORADOR_ATIVO`.
